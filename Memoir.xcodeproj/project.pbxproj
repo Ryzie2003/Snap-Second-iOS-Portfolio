@@ -690,7 +690,7 @@
 			repositoryURL = "https://github.com/RevenueCat/purchases-ios-spm.git";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 5.40.0;
+				minimumVersion = 5.88.0;
 			};
 		};
 		05C1A1022F3C100100A1B2C3 /* XCRemoteSwiftPackageReference "posthog-ios" */ = {
