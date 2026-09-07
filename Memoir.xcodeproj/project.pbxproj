@@ -698,7 +698,7 @@
 			repositoryURL = "https://github.com/PostHog/posthog-ios";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 3.34.0;
+				minimumVersion = 3.71.6;
 			};
 		};
 		05DFA1022F44E00000FB0001 /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */ = {
