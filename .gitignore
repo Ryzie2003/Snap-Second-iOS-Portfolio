@@ -1,0 +1,34 @@
+# macOS
+.DS_Store
+
+# Xcode user state and build output
+build/
+.build/
+DerivedData/
+**/DerivedData/
+*.xcuserstate
+**/xcuserdata/
+*.xcresult
+
+# Local package and tool caches
+.codex-cache/
+.codex-home/
+.swiftpm/
+
+# Local assistant configuration
+.claude/
+CLAUDE.local.md
+
+# Private service configuration
+Memoir/GoogleService-Info.plist
+Memoir/Config.xcconfig
+.env
+.env.*
+!.env.example
+
+# Archives and signing material
+*.zip
+*.p12
+*.pfx
+*.mobileprovision
+*.pem

@@ -1,0 +1,778 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		05259A292EC7EB9C009314EC /* PhosphorSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 05259A282EC7EB9C009314EC /* PhosphorSwift */; };
+		0533E1482E7CB318004DFF24 /* FirebaseAppCheck in Frameworks */ = {isa = PBXBuildFile; productRef = 0533E1472E7CB318004DFF24 /* FirebaseAppCheck */; };
+		054E2F2D2EAFE4FC00204036 /* Mixpanel in Frameworks */ = {isa = PBXBuildFile; productRef = 054E2F2C2EAFE4FC00204036 /* Mixpanel */; };
+		057F16012E6F2410003CFC14 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 057F16002E6F2410003CFC14 /* FirebaseAuth */; };
+		057F16032E6F2410003CFC14 /* FirebaseCore in Frameworks */ = {isa = PBXBuildFile; productRef = 057F16022E6F2410003CFC14 /* FirebaseCore */; };
+		057F16052E6F2410003CFC14 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 057F16042E6F2410003CFC14 /* FirebaseFirestore */; };
+		057F16072E6F2410003CFC14 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 057F16062E6F2410003CFC14 /* FirebaseStorage */; };
+		058685102ECB8C450014ADF8 /* RiveRuntime in Frameworks */ = {isa = PBXBuildFile; productRef = 0586850F2ECB8C450014ADF8 /* RiveRuntime */; };
+		058E4D3C2E7DC0FB00494E22 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 058E4D3B2E7DC0FB00494E22 /* StoreKit.framework */; };
+		059E88852E85DB3700E0DC95 /* RevenueCat in Frameworks */ = {isa = PBXBuildFile; productRef = 059E88842E85DB3700E0DC95 /* RevenueCat */; };
+		059E88872E85DB3700E0DC95 /* RevenueCatUI in Frameworks */ = {isa = PBXBuildFile; productRef = 059E88862E85DB3700E0DC95 /* RevenueCatUI */; };
+		05C1A1012F3C100100A1B2C3 /* PostHog in Frameworks */ = {isa = PBXBuildFile; productRef = 05C1A1032F3C100100A1B2C3 /* PostHog */; };
+		05DFA1012F44E00000FB0001 /* FacebookCore in Frameworks */ = {isa = PBXBuildFile; productRef = 05DFA1032F44E00000FB0001 /* FacebookCore */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		05B251E02DF1F56900AD45E2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 05B251CA2DF1F56700AD45E2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 05B251D12DF1F56700AD45E2;
+			remoteInfo = Memoir;
+		};
+		05B251EA2DF1F56900AD45E2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 05B251CA2DF1F56700AD45E2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 05B251D12DF1F56700AD45E2;
+			remoteInfo = Memoir;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		058E4D3B2E7DC0FB00494E22 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		05B251D22DF1F56700AD45E2 /* Snap Second.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Snap Second.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		05B251DF2DF1F56900AD45E2 /* MemoirTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MemoirTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		05B251E92DF1F56900AD45E2 /* MemoirUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MemoirUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		051B1FFC2E77127F004CC8D1 /* Exceptions for "Memoir" folder in "Snap Second" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 05B251D12DF1F56700AD45E2 /* Snap Second */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		05B251D42DF1F56700AD45E2 /* Memoir */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				051B1FFC2E77127F004CC8D1 /* Exceptions for "Memoir" folder in "Snap Second" target */,
+			);
+			path = Memoir;
+			sourceTree = "<group>";
+		};
+		05B251E22DF1F56900AD45E2 /* MemoirTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = MemoirTests;
+			sourceTree = "<group>";
+		};
+		05B251EC2DF1F56900AD45E2 /* MemoirUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = MemoirUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		05B251CF2DF1F56700AD45E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				057F16032E6F2410003CFC14 /* FirebaseCore in Frameworks */,
+				057F16072E6F2410003CFC14 /* FirebaseStorage in Frameworks */,
+				059E88852E85DB3700E0DC95 /* RevenueCat in Frameworks */,
+				058685102ECB8C450014ADF8 /* RiveRuntime in Frameworks */,
+				05259A292EC7EB9C009314EC /* PhosphorSwift in Frameworks */,
+				057F16012E6F2410003CFC14 /* FirebaseAuth in Frameworks */,
+				059E88872E85DB3700E0DC95 /* RevenueCatUI in Frameworks */,
+				058E4D3C2E7DC0FB00494E22 /* StoreKit.framework in Frameworks */,
+				054E2F2D2EAFE4FC00204036 /* Mixpanel in Frameworks */,
+				05C1A1012F3C100100A1B2C3 /* PostHog in Frameworks */,
+				05DFA1012F44E00000FB0001 /* FacebookCore in Frameworks */,
+				0533E1482E7CB318004DFF24 /* FirebaseAppCheck in Frameworks */,
+				057F16052E6F2410003CFC14 /* FirebaseFirestore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05B251DC2DF1F56900AD45E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05B251E62DF1F56900AD45E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		058E4D3A2E7DC0FB00494E22 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				058E4D3B2E7DC0FB00494E22 /* StoreKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		05B251C92DF1F56700AD45E2 = {
+			isa = PBXGroup;
+			children = (
+				05B251D42DF1F56700AD45E2 /* Memoir */,
+				05B251E22DF1F56900AD45E2 /* MemoirTests */,
+				05B251EC2DF1F56900AD45E2 /* MemoirUITests */,
+				058E4D3A2E7DC0FB00494E22 /* Frameworks */,
+				05B251D32DF1F56700AD45E2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		05B251D32DF1F56700AD45E2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				05B251D22DF1F56700AD45E2 /* Snap Second.app */,
+				05B251DF2DF1F56900AD45E2 /* MemoirTests.xctest */,
+				05B251E92DF1F56900AD45E2 /* MemoirUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		05B251D12DF1F56700AD45E2 /* Snap Second */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05B251F32DF1F56900AD45E2 /* Build configuration list for PBXNativeTarget "Snap Second" */;
+			buildPhases = (
+				05B251CE2DF1F56700AD45E2 /* Sources */,
+				05B251CF2DF1F56700AD45E2 /* Frameworks */,
+				05B251D02DF1F56700AD45E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				05B251D42DF1F56700AD45E2 /* Memoir */,
+			);
+			name = "Snap Second";
+			packageProductDependencies = (
+				057F16002E6F2410003CFC14 /* FirebaseAuth */,
+				057F16022E6F2410003CFC14 /* FirebaseCore */,
+				057F16042E6F2410003CFC14 /* FirebaseFirestore */,
+				057F16062E6F2410003CFC14 /* FirebaseStorage */,
+				0533E1472E7CB318004DFF24 /* FirebaseAppCheck */,
+				059E88842E85DB3700E0DC95 /* RevenueCat */,
+				059E88862E85DB3700E0DC95 /* RevenueCatUI */,
+				054E2F2C2EAFE4FC00204036 /* Mixpanel */,
+				05259A282EC7EB9C009314EC /* PhosphorSwift */,
+				0586850F2ECB8C450014ADF8 /* RiveRuntime */,
+				05C1A1032F3C100100A1B2C3 /* PostHog */,
+				05DFA1032F44E00000FB0001 /* FacebookCore */,
+			);
+			productName = Memoir;
+			productReference = 05B251D22DF1F56700AD45E2 /* Snap Second.app */;
+			productType = "com.apple.product-type.application";
+		};
+		05B251DE2DF1F56900AD45E2 /* MemoirTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05B251F62DF1F56900AD45E2 /* Build configuration list for PBXNativeTarget "MemoirTests" */;
+			buildPhases = (
+				05B251DB2DF1F56900AD45E2 /* Sources */,
+				05B251DC2DF1F56900AD45E2 /* Frameworks */,
+				05B251DD2DF1F56900AD45E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				05B251E12DF1F56900AD45E2 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				05B251E22DF1F56900AD45E2 /* MemoirTests */,
+			);
+			name = MemoirTests;
+			packageProductDependencies = (
+			);
+			productName = MemoirTests;
+			productReference = 05B251DF2DF1F56900AD45E2 /* MemoirTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		05B251E82DF1F56900AD45E2 /* MemoirUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05B251F92DF1F56900AD45E2 /* Build configuration list for PBXNativeTarget "MemoirUITests" */;
+			buildPhases = (
+				05B251E52DF1F56900AD45E2 /* Sources */,
+				05B251E62DF1F56900AD45E2 /* Frameworks */,
+				05B251E72DF1F56900AD45E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				05B251EB2DF1F56900AD45E2 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				05B251EC2DF1F56900AD45E2 /* MemoirUITests */,
+			);
+			name = MemoirUITests;
+			packageProductDependencies = (
+			);
+			productName = MemoirUITests;
+			productReference = 05B251E92DF1F56900AD45E2 /* MemoirUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		05B251CA2DF1F56700AD45E2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1630;
+				LastUpgradeCheck = 1630;
+				TargetAttributes = {
+					05B251D12DF1F56700AD45E2 = {
+						CreatedOnToolsVersion = 16.3;
+					};
+					05B251DE2DF1F56900AD45E2 = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = 05B251D12DF1F56700AD45E2;
+					};
+					05B251E82DF1F56900AD45E2 = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = 05B251D12DF1F56700AD45E2;
+					};
+				};
+			};
+			buildConfigurationList = 05B251CD2DF1F56700AD45E2 /* Build configuration list for PBXProject "Memoir" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 05B251C92DF1F56700AD45E2;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				057F15FF2E6F2410003CFC14 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				059E88832E85DB3700E0DC95 /* XCRemoteSwiftPackageReference "purchases-ios-spm" */,
+				054E2F2B2EAFE4FC00204036 /* XCRemoteSwiftPackageReference "mixpanel-swift" */,
+				05259A272EC7EB9C009314EC /* XCRemoteSwiftPackageReference "swift" */,
+				0586850E2ECB8C450014ADF8 /* XCRemoteSwiftPackageReference "rive-ios" */,
+				05C1A1022F3C100100A1B2C3 /* XCRemoteSwiftPackageReference "posthog-ios" */,
+				05DFA1022F44E00000FB0001 /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 05B251D32DF1F56700AD45E2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				05B251D12DF1F56700AD45E2 /* Snap Second */,
+				05B251DE2DF1F56900AD45E2 /* MemoirTests */,
+				05B251E82DF1F56900AD45E2 /* MemoirUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		05B251D02DF1F56700AD45E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05B251DD2DF1F56900AD45E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05B251E72DF1F56900AD45E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		05B251CE2DF1F56700AD45E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05B251DB2DF1F56900AD45E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05B251E52DF1F56900AD45E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		05B251E12DF1F56900AD45E2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 05B251D12DF1F56700AD45E2 /* Snap Second */;
+			targetProxy = 05B251E02DF1F56900AD45E2 /* PBXContainerItemProxy */;
+		};
+		05B251EB2DF1F56900AD45E2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 05B251D12DF1F56700AD45E2 /* Snap Second */;
+			targetProxy = 05B251EA2DF1F56900AD45E2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		05B251F12DF1F56900AD45E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		05B251F22DF1F56900AD45E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		05B251F42DF1F56900AD45E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_ENTITLEMENTS = Memoir/Memoir.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 45;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Memoir/Info.plist;
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.photography";
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need to access your camera so you can capture today’s 1-second clip.";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "We need to access your microphone to record audio when you capture video.";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Snap Second saves your captures to Photos so you can access them outside the app.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Snap Second needs access to your photos and videos so you can pick memories for each day.";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "Snap Second uses speech recognition so you can dictate your journal entries.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 2.0.7;
+				PRODUCT_BUNDLE_IDENTIFIER = Memories.Memoir;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		05B251F52DF1F56900AD45E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_ENTITLEMENTS = Memoir/Memoir.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 45;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Memoir/Info.plist;
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.photography";
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need to access your camera so you can capture today’s 1-second clip.";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "We need to access your microphone to record audio when you capture video.";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Snap Second saves your captures to Photos so you can access them outside the app.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Snap Second needs access to your photos and videos so you can pick memories for each day.";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "Snap Second uses speech recognition so you can dictate your journal entries.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 2.0.7;
+				PRODUCT_BUNDLE_IDENTIFIER = Memories.Memoir;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		05B251F72DF1F56900AD45E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Memories.MemoirTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Snap Second.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Snap Second";
+			};
+			name = Debug;
+		};
+		05B251F82DF1F56900AD45E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Memories.MemoirTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Snap Second.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Snap Second";
+			};
+			name = Release;
+		};
+		05B251FA2DF1F56900AD45E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Memories.MemoirUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Snap Second";
+			};
+			name = Debug;
+		};
+		05B251FB2DF1F56900AD45E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Memories.MemoirUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Snap Second";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		05B251CD2DF1F56700AD45E2 /* Build configuration list for PBXProject "Memoir" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05B251F12DF1F56900AD45E2 /* Debug */,
+				05B251F22DF1F56900AD45E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		05B251F32DF1F56900AD45E2 /* Build configuration list for PBXNativeTarget "Snap Second" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05B251F42DF1F56900AD45E2 /* Debug */,
+				05B251F52DF1F56900AD45E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		05B251F62DF1F56900AD45E2 /* Build configuration list for PBXNativeTarget "MemoirTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05B251F72DF1F56900AD45E2 /* Debug */,
+				05B251F82DF1F56900AD45E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		05B251F92DF1F56900AD45E2 /* Build configuration list for PBXNativeTarget "MemoirUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05B251FA2DF1F56900AD45E2 /* Debug */,
+				05B251FB2DF1F56900AD45E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		05259A272EC7EB9C009314EC /* XCRemoteSwiftPackageReference "swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/phosphor-icons/swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.1.0;
+			};
+		};
+		054E2F2B2EAFE4FC00204036 /* XCRemoteSwiftPackageReference "mixpanel-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/mixpanel/mixpanel-swift";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		057F15FF2E6F2410003CFC14 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 12.2.0;
+			};
+		};
+		0586850E2ECB8C450014ADF8 /* XCRemoteSwiftPackageReference "rive-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/rive-app/rive-ios";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.12.2;
+			};
+		};
+		059E88832E85DB3700E0DC95 /* XCRemoteSwiftPackageReference "purchases-ios-spm" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/RevenueCat/purchases-ios-spm.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.40.0;
+			};
+		};
+		05C1A1022F3C100100A1B2C3 /* XCRemoteSwiftPackageReference "posthog-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/PostHog/posthog-ios";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.34.0;
+			};
+		};
+		05DFA1022F44E00000FB0001 /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/facebook/facebook-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 18.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		05259A282EC7EB9C009314EC /* PhosphorSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 05259A272EC7EB9C009314EC /* XCRemoteSwiftPackageReference "swift" */;
+			productName = PhosphorSwift;
+		};
+		0533E1472E7CB318004DFF24 /* FirebaseAppCheck */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 057F15FF2E6F2410003CFC14 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAppCheck;
+		};
+		054E2F2C2EAFE4FC00204036 /* Mixpanel */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 054E2F2B2EAFE4FC00204036 /* XCRemoteSwiftPackageReference "mixpanel-swift" */;
+			productName = Mixpanel;
+		};
+		057F16002E6F2410003CFC14 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 057F15FF2E6F2410003CFC14 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		057F16022E6F2410003CFC14 /* FirebaseCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 057F15FF2E6F2410003CFC14 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCore;
+		};
+		057F16042E6F2410003CFC14 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 057F15FF2E6F2410003CFC14 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		057F16062E6F2410003CFC14 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 057F15FF2E6F2410003CFC14 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+		0586850F2ECB8C450014ADF8 /* RiveRuntime */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0586850E2ECB8C450014ADF8 /* XCRemoteSwiftPackageReference "rive-ios" */;
+			productName = RiveRuntime;
+		};
+		059E88842E85DB3700E0DC95 /* RevenueCat */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 059E88832E85DB3700E0DC95 /* XCRemoteSwiftPackageReference "purchases-ios-spm" */;
+			productName = RevenueCat;
+		};
+		059E88862E85DB3700E0DC95 /* RevenueCatUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 059E88832E85DB3700E0DC95 /* XCRemoteSwiftPackageReference "purchases-ios-spm" */;
+			productName = RevenueCatUI;
+		};
+		05C1A1032F3C100100A1B2C3 /* PostHog */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 05C1A1022F3C100100A1B2C3 /* XCRemoteSwiftPackageReference "posthog-ios" */;
+			productName = PostHog;
+		};
+		05DFA1032F44E00000FB0001 /* FacebookCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 05DFA1022F44E00000FB0001 /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */;
+			productName = FacebookCore;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 05B251CA2DF1F56700AD45E2 /* Project object */;
+}

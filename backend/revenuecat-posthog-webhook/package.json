@@ -1,0 +1,11 @@
+{
+  "name": "revenuecat-posthog-webhook",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node server.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
